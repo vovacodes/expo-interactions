@@ -20,6 +20,7 @@ export default function PrototypesHomeScreen() {
             flex: 1,
             alignItems: "center",
             justifyContent: "center",
+            gap: 12,
           }}
         >
           <Link
@@ -27,6 +28,12 @@ export default function PrototypesHomeScreen() {
             style={{ textDecorationLine: "underline", fontSize: 16 }}
           >
             Skia Enter/Exit Layout Transitions
+          </Link>
+          <Link
+            href="./shiny-text"
+            style={{ textDecorationLine: "underline", fontSize: 16 }}
+          >
+            Shiny Text
           </Link>
         </View>
       </ScrollView>
